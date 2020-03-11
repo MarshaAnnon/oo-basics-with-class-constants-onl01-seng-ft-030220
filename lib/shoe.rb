@@ -8,6 +8,7 @@ class Shoe
     @brand = brand
     brand.include? do |brand|
           BRANDS << brand
+        end
   end
 
   def cobble
